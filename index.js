@@ -2,10 +2,10 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import { OpenAI } from 'openai';
-import { connectDB } from './config/db.js';
+
 
 dotenv.config();
-connectDB();
+
 
 const app = express();
 const port = process.env.PORT || 3093;
