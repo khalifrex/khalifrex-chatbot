@@ -1,0 +1,11 @@
+# Secrets
+.env
+
+# Node.js
+node_modules/
+dist/
+.next/
+
+# System files
+.DS_Store
+*.log
